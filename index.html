@@ -177,7 +177,7 @@
         <br>
         <em>IEEE Robotics and Automation Letters</em>, 2024
         <br>
-        <a href="https://ieeexplore.ieee.org/document/10543120/authors#authors">paper</a>
+        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10543120">paper</a>
         /
         <a href="https://www.youtube.com/watch?v=GInCNivRO6s&t=65s">video</a>
         /
@@ -192,7 +192,47 @@
       </td>
     </tr>
 
-    <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
+<!------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------->
+
+    <tr onmouseout="bog_stop()" onmouseover="bog_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='bog_image'><video  width=100% muted autoplay loop>
+          <source src="images/Foot_vision_cover1_test.jpg" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/Foot_vision_cover1_test.jpg' width=100%>
+        </div>
+        <script type="text/javascript">
+          function bog_start() {
+            document.getElementById('bog_image').style.opacity = "1";
+          }
+
+          function bog_stop() {
+            document.getElementById('bog_image').style.opacity = "0";
+          }
+          bog_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <span class="papertitle">STAF: Interaction-Based Design and Evaluation of Sensorized Terrain-Adaptive Foot for Legged Robot Traversing on Soft Slope </span>
+        </a>
+        <br>
+        Chen Yao, <strong>Guowei Shi</strong>, Peng Xu, Shipeng Lyu, Zhiyang Qiang, Zheng Zhu, Liang Ding, Zhenzhong Jia**
+        <br>
+        <em>IEEE/ASME Transactions on Mechatronics</em>, 2024
+        <br>
+        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10415301">paper</a>
+        <p></p>
+        <p>
+          We improved quadruped robots' planer feet with stud using an optimization method based on terrain mechanics 
+          and validated our proposed can significantly enhance the motility of quadruped locomotion on the granular slope through extensive experiments.
+        </p>
+      </td>
+    </tr>
+
+    <!-- <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
           <div class="two" id='smerf_image'><video  width=100% muted autoplay loop>
@@ -3971,7 +4011,7 @@ for Topologically Varying Neural Radiance Fields</span>
                 <br>
                 <a href="https://jonbarron.info/data/cvpr2023_llm_workshop_annotated.pdf">Scholars & Big Models: How Can Academics Adapt?</a>
               </td>
-            </tr>
+            </tr> -->
             
             
           </tbody></table>
